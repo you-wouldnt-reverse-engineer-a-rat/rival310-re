@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +3.3V-power
+# +3.3V-power-steelseries-rival310-rescue
 #
-DEF +3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power-steelseries-rival310-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power-steelseries-rival310-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GND-power
+# GND-power-steelseries-rival310-rescue
 #
-DEF GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power-steelseries-rival310-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND-power" 0 -150 50 H V C CNN
+F1 "GND-power-steelseries-rival310-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -29,11 +29,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# LED_RGB-Device
+# LED_RGB-Device-steelseries-rival310-rescue
 #
-DEF LED_RGB-Device D 0 0 Y N 1 F N
+DEF LED_RGB-Device-steelseries-rival310-rescue D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
-F1 "LED_RGB-Device" 0 -350 50 H V C CNN
+F1 "LED_RGB-Device-steelseries-rival310-rescue" 0 -350 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -83,11 +83,11 @@ X RA 6 200 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Rotary_Encoder-Device
+# Rotary_Encoder-Device-steelseries-rival310-rescue
 #
-DEF Rotary_Encoder-Device SW 0 10 Y N 1 F N
+DEF Rotary_Encoder-Device-steelseries-rival310-rescue SW 0 10 Y N 1 F N
 F0 "SW" 0 260 50 H V C CNN
-F1 "Rotary_Encoder-Device" 0 -260 50 H V C CNN
+F1 "Rotary_Encoder-Device-steelseries-rival310-rescue" 0 -260 50 H V C CNN
 F2 "" -150 160 50 H I C CNN
 F3 "" 0 260 50 H I C CNN
 $FPLIST
@@ -113,11 +113,11 @@ X C C -300 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STM32F103T6Ux-MCU_ST_STM32F1
+# STM32F103T6Ux-MCU_ST_STM32F1-steelseries-rival310-rescue
 #
-DEF STM32F103T6Ux-MCU_ST_STM32F1 U 0 20 Y Y 1 F N
+DEF STM32F103T6Ux-MCU_ST_STM32F1-steelseries-rival310-rescue U 0 20 Y Y 1 F N
 F0 "U" -600 850 50 H V L CNN
-F1 "STM32F103T6Ux-MCU_ST_STM32F1" 200 850 50 H V L CNN
+F1 "STM32F103T6Ux-MCU_ST_STM32F1-steelseries-rival310-rescue" 200 850 50 H V L CNN
 F2 "Package_DFN_QFN:QFN-36-1EP_6x6mm_P0.5mm_EP4.1x4.1mm" -600 -900 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -165,11 +165,11 @@ X PA2 9 600 500 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SW_Push_Open-Switch
+# SW_Push_Open-Switch-steelseries-rival310-rescue
 #
-DEF SW_Push_Open-Switch SW 0 40 N N 1 F N
+DEF SW_Push_Open-Switch-steelseries-rival310-rescue SW 0 40 N N 1 F N
 F0 "SW" 0 100 50 H V C CNN
-F1 "SW_Push_Open-Switch" 0 -75 50 H V C CNN
+F1 "SW_Push_Open-Switch-steelseries-rival310-rescue" 0 -75 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -182,11 +182,39 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TUREMOVE3-steelseries
+# TUREMOVE3-steelseries-steelseries-rival310-rescue
 #
-DEF TUREMOVE3-steelseries U 0 40 Y Y 1 F N
+DEF TUREMOVE3-steelseries-steelseries-rival310-rescue U 0 40 Y Y 1 F N
 F0 "U" -200 500 50 H V C CNN
-F1 "TUREMOVE3-steelseries" 150 -500 50 H V C CNN
+F1 "TUREMOVE3-steelseries-steelseries-rival310-rescue" 150 -500 50 H V C CNN
+F2 "" 850 -300 50 H I C CNN
+F3 "" 850 -300 50 H I C CNN
+DRAW
+S -250 450 350 -450 0 1 0 f
+X ~ 1 -350 350 100 R 50 50 1 1 N
+X LED_P 10 450 250 100 L 50 50 1 1 I
+X ~ 11 450 150 100 L 50 50 1 1 N
+X CS 12 450 50 100 L 50 50 1 1 I I
+X MISO 13 450 -50 100 L 50 50 1 1 O
+X MOSI 14 450 -150 100 L 50 50 1 1 I
+X SCK 15 450 -250 100 L 50 50 1 1 I
+X MOTION 16 450 -350 100 L 50 50 1 1 O I
+X ~ 2 -350 250 100 R 50 50 1 1 N
+X VDDPIX 3 -350 150 100 R 50 50 1 1 w
+X VDD 4 -350 50 100 R 50 50 1 1 W
+X VDDIO 5 -350 -50 100 R 50 50 1 1 W
+X ~ 6 -350 -150 100 R 50 50 1 1 N
+X RESET 7 -350 -250 100 R 50 50 1 1 I I
+X GND 8 -350 -350 100 R 50 50 1 1 W
+X ~ 9 450 350 100 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# TUREMOVE3-steelseries-steelseries-rival310-rescue-steelseries-rival310-rescue
+#
+DEF TUREMOVE3-steelseries-steelseries-rival310-rescue-steelseries-rival310-rescue U 0 40 Y Y 1 F N
+F0 "U" -200 500 50 H V C CNN
+F1 "TUREMOVE3-steelseries-steelseries-rival310-rescue-steelseries-rival310-rescue" 150 -500 50 H V C CNN
 F2 "" 850 -300 50 H I C CNN
 F3 "" 850 -300 50 H I C CNN
 DRAW
