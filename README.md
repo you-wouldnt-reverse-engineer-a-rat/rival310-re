@@ -4,6 +4,12 @@
 
 Reverse engineering of the [Rival310](https://steelseries.com/gaming-mice/rival-310) and Sensei310 gaming mouse by [Steelseries](https://steelseries.com/)
 
+Specs:
+ - CPI 100–12000 in 100 Increments
+ - IPS 350+
+ - Acceleration 50G
+ - Polling Rate 1 ms
+
 ### hardware
 
 The main board consists of:
@@ -110,12 +116,6 @@ The Rival310 comes with a TRUEMOVE3 sensor, this sensor originates from a colabo
 
 it is heavily based on the popular PMW3360.
 
-Specs:
- - CPI 100–12000 in 100 Increments
- - IPS 350+
- - Acceleration 50G
- - Polling Rate 1 ms
-
 A reverse engineering effort towards this sensor is being made in a separate repo [truemove3-re](https://github.com/gimbas/truemove3-re).
 
 ### External EEPROM
@@ -129,7 +129,7 @@ The external EEPROM is most likely used to store configurations, although we hav
 
 The TRUEMOVE3 firmware is stored in the external EEPROM, it consists of the 4094 continuous bytes starting in address 0x6100.
 
-You can take a look at the contents of the EEPROM in [EEPROM_DUMP](EEPROM_DUMP).
+You can take a look at the contents of the EEPROM in [eeprom_dump](eeprom_dump).
 
 ### Protocol
 
