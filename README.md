@@ -120,6 +120,11 @@ A reverse engineering effort towards this sensor is being made in a separate rep
 
 ### External EEPROM
 
+512kibit(64kiB) EEPROM, manufactured by [ST](https://www.st.com/), reference M95512.
+It has an address span from 0x0000 t0 0xFFFF.
+
+There's a datasheet in the documentation folder.
+
 The external EEPROM is most likely used to store configurations, although we have not identified what is stored and where except for the TRUEMOVE3 firmware.
 
 The TRUEMOVE3 firmware is stored in the external EEPROM, it consists of the 4094 continuous bytes starting in address 0x6100.
