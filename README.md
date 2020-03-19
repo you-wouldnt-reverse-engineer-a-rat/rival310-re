@@ -107,7 +107,7 @@ programing can be done with any programmer capable of SWD for cortex-m microcont
 
 examples are:
  - ST-Link
- - ST-Link
+ - J-Link
  - FT2232H + openocd
 
 ### Sensor
@@ -128,6 +128,8 @@ There's a datasheet in the documentation folder.
 The external EEPROM is most likely used to store configurations, although we have not identified what is stored and where except for the TRUEMOVE3 firmware.
 
 The TRUEMOVE3 firmware is stored in the external EEPROM, it consists of the 4094 continuous bytes starting in address 0x6100.
+
+![Memory_map](documentation/EEPROM_map.png)
 
 You can take a look at the contents of the EEPROM in [eeprom_dump](eeprom_dump).
 
