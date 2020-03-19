@@ -99,6 +99,12 @@ Pin number | Pin name | Function
 
 You can have a further look by taking a peek at the [schematic](board/schematic.pdf) in the board folder.
 
+### firmware
+
+There is no effort being put to reverse engineering the embedded firmware, as our plan is to rewrite one from scratch.
+
+We know now that the MCU as a Bootloader programmed in it's flash memory, that retrieves the firmware from the external EEPROM.
+
 #### Programing the mainboard
 
 The main board has the programing pins exposed and labeled in a 2x2 header connector.
@@ -109,6 +115,7 @@ examples are:
  - ST-Link
  - J-Link
  - FT2232H + openocd
+
 
 ### Sensor
 
@@ -125,9 +132,11 @@ It has an address span from 0x0000 t0 0xFFFF.
 
 There's a datasheet in the documentation folder.
 
-The external EEPROM is most likely used to store configurations, although we have not identified what is stored and where except for the TRUEMOVE3 firmware.
+The external EEPROM is most likely used to store configurations, and firmware blobs, we have not identified what is stored and where except for the TRUEMOVE3 firmware, and the main MCU firmware.
 
 The TRUEMOVE3 firmware is stored in the external EEPROM, it consists of the 4094 continuous bytes starting in address 0x6100.
+
+The main MCU firmware is stored starting in address 0x8108.
 
 ![Memory_map](documentation/EEPROM_map.png)
 
