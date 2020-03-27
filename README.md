@@ -59,8 +59,8 @@ TP25 | 5V
 TP26 | 3V3
 TP27 | 2V
 TP28 | PB3 (DPI Btn / SWO)
-TP29 | Forward/Back btn
-TP30 | Forward/Back btn
+TP29 | Back btn
+TP30 | Forward btn
 TP35 | LED ?
 TP36 | LED ?
 TP37 | LED ?
