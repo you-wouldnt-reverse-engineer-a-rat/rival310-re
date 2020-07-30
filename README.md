@@ -34,19 +34,19 @@ testpoint | Funcion
 :---: | :---:
 TP1 | TRUEMOVE3 VDD (2V) ?
 TP2 | TRUEMOVE3 Reset ?
-TP3 | Logo Red
-TP4 | Logo Green
-TP5 | Logo Blue
-TP6 | Scroll wheel Red
-TP7 | Scroll wheel green
-TP8 | Scroll wheel Blue
+TP3 | LED Logo R
+TP4 | LED Logo G
+TP5 | LED Logo B
+TP6 | LED Scroll R
+TP7 | LED Scroll G
+TP8 | LED Scroll B
 TP9 | Left btn
 TP10 | Right btn
 TP11 | Middle btn
 TP12 | ENC A/B
 TP13 | MCU Reset
 TP14 | ENC A/B
-TP15 | USB DP Through R21 ?
+TP15 | USB DP Pull-up IO
 TP16 | USB DP
 TP17 | USB DM
 TP18 | SPI MISO
