@@ -4,11 +4,13 @@
 
 Reverse engineering of the [Rival310](https://steelseries.com/gaming-mice/rival-310) and Sensei310 gaming mouse by [Steelseries](https://steelseries.com/)
 
-Specs:
- - CPI 100–12000 in 100 Increments
- - IPS 350+
- - Acceleration 50G
- - Polling Rate 1 ms
+| Spec | range | Unit |
+|:--|:--|:-:|
+| CPI | 100–12000 (100 inc) | - |
+| Max Tracking speed | 350 | I/s |
+| Max acceleration | 50 | g |
+| Report Rate | 1 | kHz |
+| Processor Core | 32-bit ARM | - |
 
 ### hardware
 
