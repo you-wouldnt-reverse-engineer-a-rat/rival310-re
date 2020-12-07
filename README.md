@@ -71,8 +71,8 @@ TP37 | LED ?
 
 Pin number | Pin name | Function
 :---: | :---: | :---:
-2 | PD0 | 
-3 | PD1 | 
+2 | PD0 | Crystal Oscillator
+3 | PD1 | Crystal Oscillator
 7 | PA0 | Scroll wheel LED Green
 8 | PA1 | Scroll wheel LED Red
 9 | PA2 | Scroll wheel LED Blue
@@ -91,7 +91,7 @@ Pin number | Pin name | Function
 24 | PA12 | USB DP
 25 | PA13 | SDIO
 28 | PA14 | SWCLK
-29 | PA15 | 
+29 | PA15 | USB DP Externa pull-up
 30 | PB3 | DPI button
 31 | PB4 | Encoder A/B
 32 | PB5 | Encoder A/B
