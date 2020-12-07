@@ -125,7 +125,7 @@ The Rival310 comes with a TRUEMOVE3 sensor, this sensor originates from a colabo
 
 it is heavily based on the popular PMW3360.
 
-A reverse engineering effort towards this sensor is being made in a separate repo [truemove3-re](https://github.com/gimbas/truemove3-re).
+A reverse engineering effort towards this sensor is being made in a separate repo [truemove3-re](https://github.com/perigoso/truemove3-re).
 
 ### External EEPROM
 
